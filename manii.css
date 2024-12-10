@@ -1,0 +1,30 @@
+*{
+  background-color: black;
+  color: white;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+p{
+  font-size: 2.2rem;
+  font-weight: 500;
+  font-color: skyblue;
+  filter: drop-shadow(2px 2px 2px red)
+}
+h1{
+  background-color: skyblue
+}
+img{
+  height: 100px;
+  width: 100px;
+}
+.banner {
+  background-image: url(https://www.pexels.com/photo/pavilions-on-gadisar-lake-16534745/);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100%;
+  height: 440px;
+}
+
+

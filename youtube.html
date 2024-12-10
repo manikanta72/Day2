@@ -1,0 +1,389 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="youtube.css">
+    <title>Youtube Clone</title>
+</head>
+
+<body>
+    <nav>
+        <div id="youtube-logo-container">
+            <input type="text" placeholder="Search" id="search-bar">
+            <div id="icon-container">
+                <img class="utube"
+                    src="https://th.bing.com/th?id=OIP.aByvAl4Fl4Dk3N9fA3IudwHaFM&w=298&h=209&c=8&rs=1&qlt=90&o=6&dpr= pid=3.1&rm=2">
+    </nav>
+    <section id="side-bar-section">
+        <div>
+            <ul class="side-bar">
+                <li id="active-title">
+                    <i class="material-icons" id="home-icon">&#xe88a;
+                    </i>
+                    <a href="#" class="side-bar-titles active">Home</a>
+                </li>
+                <li>
+                    <i class="material-icons">&#xe87a;</i>
+                    <a href="#" class="side-bar-titles">Explore </a>
+                </li>
+                <li>
+                    <i class="material-icons">&#xe064; </i>
+                    <a href="#" class="side-bar-titles"> Subscriptions </a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="side-bar">
+                <li>
+                    <i class="material-icons">&#xe04a; </i>
+                    <a href="#" class="side-bar-titles"> Library </a>
+                </li>
+                <li>
+                    <i class="material-icons">&#xe889;</i>
+                    <a href="#" class="side-bar-titles">History </a>
+                </li>
+                <li>
+                    <i class="material-icons">&#xe63a; </i>
+                    <a href="#" class="side-bar-titles">Your Videos</a>
+                </li>
+                <li>
+                    <i class="fas fa-clock">&#xe54d;</i>
+                    <a href="#" class="side-bar-titles">Watch Later </a>
+                </li>
+                <li>
+                    <i class='fas fa-thumbs-up'>&#xe54d;</i>
+                    <a href="#" class="side-bar-titles"> Liked Videos</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p class="side-bar-heading">Subscriptions</p>
+            <ul class="side-bar">
+                <li>
+                    <div class="channel-dp-container-1">
+                        <img src="" alt="">
+                    </div>
+                    <a href="#" class="side-bar-titles">Ania Palmer</a>
+                </li>
+                <li>
+                    <div class="channel-dp-container-1">
+                        <img src="https://images.pexels.com/photos/28841514/pexels-photo-28841514/free-photo-of-silhouette-of-a-man-against-warm-background.jpeg"
+                            class="channel-dp-1">
+                    </div>
+                    <a href="#" class="side-bar-titles">The Puzzle World</a>
+                </li>
+                <li>
+                    <div class="channel-dp-container-1">
+                        <img src="" alt="">
+                    </div>
+                    <a href="#" class="side-bar-titles">Sports daily </a>
+                </li>
+                <li>
+                    <div class="channel-dp-container-1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrKxq-O2TgvU4AJsrtcLmpqJiN7Xnlt_jclw&s"
+                            class="channel-dp-1">
+                    </div>
+                    <a href="#" class="side-bar-titles">Rick Sorkin</a>
+                </li>
+                <li>
+                    <div class="channel-dp-container-1">
+                        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxESEhUSEhIWFhUXFhUXFxYYFxgXFxUYFRUWFxgXFxUYHiggGB0lHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDg0OGhAQGi0lICYtLy0tLSstLy4rLS0tLS01LSstLS0tLS0tLS0vLS0tLS0tLS0tLS0tLS0tLi0tLS0tLf/AABEIARMAtwMBIgACEQEDEQH/kJK57D9oMQxpZmDgQR4hJEiJB1PnK3HaLAh7O8bVacgPhBB59Rb6LmmYOplD8pLTvHi9Y081ZIxbd9lNFmZwbIEkCTYDmSus2bs3EYc56FRtRhF2yWh/JDRCEEUhqhCIkFJgQhFNwVYcUIQTH6pvQhRQfzSjVCEEmpFCEFJQhCD//2Q==" class="channel-dp-1">
+                    </div>
+                    <a href="#" class="side-bar-titles">Android Daily</a>
+                </li>
+                <li>
+                    <div class="channel-dp-container-1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRACRXwb-HaObvKefL_iiStjycWg4_S82jJBw&s"
+                            class="channel-dp-1">
+                    </div>
+                    <a href="#" class="side-bar-titles">Mike Miller</a>
+                </li>
+                <li>
+                    <div class="channel-dp-container-1">
+                        <img src="https://encrypted-tbn0.gstatic.com/images  q=tbn:ANd9GcSluxORMS5oHs3uMiqdmzOAcaMsHiIRqhEFSA s"
+                            class="channel-dp-1">
+                    </div>
+                    <a href="#" class="side-bar-titles">Best Tips</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <p class="side-bar-heading">More from youtube </p>
+            <ul class="side-bar">
+                <li>
+                    <i class='fab fa-youtube'>&#xe54d;</i>
+                    <a href="#" class="side-bar-titles">Your Liked videos </a>
+                </li>
+                <li>
+                    <i class="material-icons">&#xe54d;</i>
+                    <a href="#" class="side-bar-titles">Films</a>
+                </li>
+                <li>
+                    <i class="fa fa-gamepad">&#xe54d;</i>
+                    <a href="#" class="side-bar-titles">Gaming</a>
+                </li>
+                <li>
+                    <i class="material-icons">&#xe639;</i>
+                    <a href="#" class="side-bar-titles">Live</a>
+                </li>
+                <li>
+                    <i class='fas fa-lightbulb'>&#xe54d;</i>
+                    <a href="#" class="side-bar-titles">Learning</a>
+                </li>
+                <li>
+                    <i class='fas fa-trophy'>&#xe54d;</i>
+                    <a href="#" class="side-bar-titles">Sport</a>
+                </li>
+            </ul>
+        </div>
+        <div>
+            <ul class="side-bar">
+                <li>
+                    <i class="material-icons">&#xe8b8;</i>
+                    <a href="#" class="side-bar-titles">Settings</a>
+                </li>
+                <li>
+                    <i class='fas fa-flag'>&#xe54d;</i>
+                    <a href="#" class="side-bar-titles">Report History</a>
+                </li>
+                <li>
+                    <i class="material-icons">&#xe887;</i>
+                    <a href="#" class="side-bar-titles">Help</a>
+                </li>
+                <li>
+                    <i class="material-icons">&#xe87f;</i>
+                    <a href="#" class="side-bar-titles">Send Feedback </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <main id="video-section">
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/IuIknC6BAX4?si=1iZ6P6dC14E7k8P9"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="https://images.pexels.com/photos/28841514/pexels-photo-28841514/free-photo-of-silhouette-of-a-man-against-warm-background jpeg"
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title">Top 5 Android features</a>
+                    <a href="#" class="channel-name">Android daily</a>
+                    <a href="#" class="views">2M Views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">1 week ago</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/mP51P-kUNEg?si=GIBsnZ5ENvr5YpJj"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhnomoMj6k4pDafoS-yAPEcK-B3iEQbuolDscPJXbY-6GLtcUBRuSqJQvBZIkZDv33YajkhBNiQT3jWCTO8AJQxIAz_h16QOl3uT8gI06l2itBLXJ1w15LP5ueY_kl20HsePo69BHcGXJg6JjDK_zqCUzrl4SPdizb-ID7X_uZCqYJayOzKW5jjfWTl/s316/sony-wah-channel-on-dd-direct-plus.jpg"
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title">The 10 BEST Shows of 2024!</a>
+                    <a href="#" class="channel-name"> Mike Miller </a>
+                    <a href="#" class="views">1K views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">2 months ago
+                    </a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/V5HS4gZE-6A?si=zRPiLSpd0pxMhCXo"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRQNEiifvOUQsCOFxHvZ3Z1TXDww_BRpM5J5g&s"
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title">5 New Features of YouTube</a>
+                    <a href="#" class="channel-name"> Android Daily</a>
+                    <a href="#" class="views"> 2.7K views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">5 days ago</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/5fEU3aJQzCU?si=ZDNpquebsgYc90Sj"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSluxORMS5oHs3uMiqdmzOAcaMsHiIRqhEFSA&s"
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title"> How To Improve Your
+                        YouTube Recommendations</a>
+                    <a href="#" class="channel-name">Best Tips</a>
+                    <a href="#" class="views">3K views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">3 days ago</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/JjvX09nG2F0?si=kpJTfirszLVEUCKt"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrKxq-O2TgvU4AJsrtcLmpqJiN7Xnlt_jclw&s"
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title">Rick Sorkin - Your Eyes (Official Video)</a>
+                    <a href="#" class="channel-name">Rick Sorkin</a>
+                    <a href="#" class="views"> 5M views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">1 year ago</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/NDeRifZMRkk?si=1IL-5AjxLv-GIaFf"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="https://th.bing.com/th?id=OIP.aByvAl4Fl4Dk3N9fA3IudwHaFM&w=298&h=209&c=8&rs=1&qlt=90&o=6&dpr= pid=3.1&rm=2"
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title">15 Photography Tips for Beginners</a>
+                    <a href="#" class="channel-name">Photography World</a>
+                    <a href="#" class="views">506 views </a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">5 weeks ago</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qqCV8SI4qZw?si=vlm800jWpf8cExdT"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="https://images.pexels.com/photos/28841514/pexels-photo-28841514/free-photo-of-silhouette-of-a-man-against-warm-background.jpeg"
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title">David Scott - Another Year (Official Lyric Video)</a>
+                    <a href="#" class="channel-name"> Android Daily</a>
+                    <a href="#" class="views">500K views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">1 month ago</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/84fb-zzDOiY?si=BwOpyHY8EwE1I24_"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="https://th.bing.com/th?id=OIP.aByvAl4Fl4Dk3N9fA3IudwHaFM&w=298&h=209&c=8&rs=1&qlt=90&o=6&dpr= pid=3.1&rm=2"
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title"> 5 Popular Sports Right Now</a>
+                    <a href="#" class="channel-name">Sports Daily</a>
+                    <a href="#" class="views"> 2K views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time"> 5 weeks ago</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnri3jYaWYk?si=Su8z0ZU5VyG019cm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                   
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title"> Puzzles - Official Trailer (HD)</a>
+                    <a href="#" class="channel-name">The Puzzle World</a>
+                    <a href="#" class="views"> 2M views </a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">2 months ag</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnri3jYaWYk?si=Su8z0ZU5VyG019cm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="" channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="https://www.w3schools.com" class="video-title">OG Official trailer</a>
+                    <a href="#" class="channel-name">Pawan Kalyan</a>
+                    <a href="#" class="views"> 1M views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time"> 5 months ago</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/qnri3jYaWYk?si=Su8z0ZU5VyG019cm" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src=""
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title">Rachel Spectre -Footsteps (Official Video)</a>
+                    <a href="#" class="channel-name">Rachel Spectre</a>
+                    <a href="#" class="views">2M views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">11 months ago</a>
+                </div>
+            </div>
+        </div>
+        <div class="video-container">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/A0knKuwz3l8?si=pxYUAxVuajTyC6Fq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+            <div class="video-description">
+                <div class="channel-dp-container-2">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrKxq-O2TgvU4AJsrtcLmpqJiN7Xnlt_jclw&s"
+                        class="channel-dp-2">
+                </div>
+                <div class="video-details">
+                    <a href="#" class="video-title"> Top 5 Android 11 Features</a>
+                    <a href="#" class="channel-name"> Android Daily</a>
+                    <a href="#" class="views">3M views</a>
+                    <i class="fas fa-circle"></i>
+                    <a href="#" class="time">1 year ago</a>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>
+            This project is a cloned work and
+            a recreation of YouTube's design
+        </p>
+    </footer>
+</body>
+
+</html>

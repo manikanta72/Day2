@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  label{
+   margin-left: 700px;
+    background-color: white;
+  }
+  body{
+    background-color: whitesmoke;
+    }
+  h1{
+    text-align: center;
+    font-size: 80px;
+    font-weight: 50px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+  }
+  .fb{
+    margin-left: 500px;
+    background-color: dodgerblue;
+    height: 30px;
+    width: 450px;
+  }
+  img{
+    margin-left: 500px;
+    height: 20px;
+    width: 30px;
+  }
+  h3{
+    text-align: center;
+  }
+  .username{
+    margin-left: 500px;
+    background-color: dodgerblue;
+    height: 30px;
+    width: 450px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .password{
+    background-color: dodgerblue;
+    margin-left: 500px;
+    height: 30px;
+    width: 450px;
+    font-size: 30px;
+    text-align: center;
+  }
+  
+  

@@ -1,0 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+nav{
+  background-color: pink;
+}
+.para{
+  color:red;
+}
+.box1{
+  height:300px;
+  width:100px;
+  margin-left: 20px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.box2{
+  height: 300px;
+  width:100px;
+  margin-top: 60px;
+}
+.box3{
+  height:300px;
+  width:100px;
+  margin-top: 60px;
+}
+.new{
+  border-color: black;
+  border-width: 8px;
+  height: 300px;
+  width: 100px;
+}
+.nav-items{
+  text-align: center;
+}
+.seachbar{
+  align-content: center center;
+}
+section{
+  position: center;
+}
+

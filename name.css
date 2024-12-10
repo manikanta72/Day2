@@ -1,0 +1,14 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+marquee{
+  color:brown;
+  font-size: 2.2rem;
+  font-weight: 6.2rem;
+}
+.images{
+  padding: 100%;
+}
+
